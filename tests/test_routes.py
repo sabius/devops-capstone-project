@@ -69,7 +69,6 @@ class TestAccountService(TestCase):
         for key, value in headers.items():
             self.assertEqual(response.headers.get(key), value)
 
-
     ######################################################################
     #  H E L P E R   M E T H O D S
     ######################################################################
@@ -212,3 +211,4 @@ class TestAccountService(TestCase):
             response.headers.get('Access-Control-Allow-Origin'),
             '*'
         )
+        

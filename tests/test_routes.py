@@ -211,4 +211,3 @@ class TestAccountService(TestCase):
             response.headers.get('Access-Control-Allow-Origin'),
             '*'
         )
-        
